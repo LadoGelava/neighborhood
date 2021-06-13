@@ -1,0 +1,162 @@
+@font-face {
+  font-family: agremyn;
+  src: url(fonts/agremyn.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: agremyn;
+}
+
+.logoDiv {
+  margin-top: 50px;
+  padding-top: 120px;
+  text-align: center;
+  background: #dcecef;
+  height: 170px;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+}
+
+input {
+  font-family: Franklin;
+}
+
+.loginDiv {
+  width: 90%;
+  margin: auto;
+  background: #fefeff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.autorisation {
+  font-size: 28px;
+  text-align: left;
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 150px;
+  position: relative;
+}
+
+.loginForm input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.loginForm input::placeholder {
+  color: #c1c4c8;
+  font-size: 16px;
+}
+
+.forgot {
+  position: absolute;
+  bottom: 100px;
+  font-size: 18px;
+  right: -10px;
+  font-weight: bold;
+  color: #989ca1;
+}
+
+.login {
+  background: #f57f80;
+  width: 100%;
+  height: 50px;
+  margin-top: 100px;
+  border-radius: 0;
+}
+
+.loginSimple {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.loginViaSocMedia {
+  width: 100%;
+}
+
+.loginViaSocMedia span {
+  display: inline-block;
+  height: 1px;
+  background: #bec0c3;
+  width: 120px;
+}
+
+.fa-facebook,
+.fa-google {
+  color: white;
+  font-size: 30px;
+}
+
+.loginSimple p {
+  color: grey;
+  margin-top: 10px;
+}
+
+.circleIcon {
+  background: #404851;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconsLogin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.suggestRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.suggestRegister p {
+  color: #c1c4c8;
+}
+
+.suggestRegister a {
+  color: #969ba0;
+  font-weight: bold;
+  margin-top: -20px;
+  font-size: 18px;
+}
