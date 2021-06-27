@@ -25,41 +25,52 @@
   </head>
   <body>
     <div class="logoDiv">
-      <div class="navbar-brand logo">
+      <a class="navbar-brand logo">
         <img src="./img/logo.png" alt="ჩემი სამეზობლო" />
         <h1>THE NEIGHBORHOOD</h1>
-      </div>
+      </a>
     </div>
-    <div class="loginDiv">
-      <p class="autorisation"><b>ავტორიზაცია</b></p>
-      <form class="loginForm">
+    <div class="registerDiv">
+      <p class="registration"><b>რეგისტრაცია</b></p>
+      <form class="registerForm">
+        <input
+          type="text"
+          class="registerName"
+          placeholder="შეიყვანეთ სახელი და გვარი"
+        />
+        <input
+          type="number"
+          class="registerPhoneNumber"
+          placeholder="შეიყვანეთ ტელეფონის ნომერი"
+        />
+        <input
+          type="text"
+          class="registerAddress"
+          placeholder="შეიყვანეთ მისამართი"
+        />
+        <input
+          type="number"
+          class="registerPhoneNumber"
+          placeholder="შეიყვანეთ პირადი ნომერი"
+        />
         <input type="email" class="email" placeholder="შეიყვანეთ ელ. ფოსტა" />
         <input
           type="password"
           class="password"
           placeholder="შეიყვანეთ პაროლი"
         />
-        <a href="#" class="forgot btn">პაროლის აღდგენა</a>
-        <button type="submit" class="login btn">ავტორიზაცია</button>
+        <input
+          type="password"
+          class="registerConfirmPassword"
+          placeholder="დაადასტურეთ პაროლი"
+        />
+
+        <button type="submit" class="register btn">რეგისტრაცია</button>
       </form>
-      <div class="loginViaSocMedia">
-        <div class="loginSimple">
-          <span> </span>
-          <p>ან შედით მარტივად</p>
-          <span></span>
-        </div>
-        <div class="iconsLogin">
-          <a class="circleIcon google btn" href="#">
-            <i class="fa fa-google"></i>
-          </a>
-          <a class="circleIcon facebook btn" href="#">
-            <i class="fa fa-facebook"></i>
-          </a>
-        </div>
-      </div>
-      <div class="suggestRegister">
-        <p>ჯერ არ გაქვს ანგარიში?</p>
-        <a href="register.html" class="registerNow btn">დარეგისტრირდი</a>
+
+      <div class="suggestLogin">
+        <p>უკვე გაქვს ანგარიში?</p>
+        <a href="index.html" class="registerNow btn">ავტორიზაცია</a>
       </div>
     </div>
 
