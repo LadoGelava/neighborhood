@@ -1,6 +1,6 @@
 @font-face {
   font-family: agremyn;
-  src: url(fonts/agremyn.ttf);
+  src: url(../fonts/agremyn.ttf);
 }
 
 * {
@@ -84,7 +84,7 @@ input {
 .registerForm input {
   width: 100%;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dedede;
   margin-top: 30px;
   padding-left: 10px;
   padding-bottom: 5px;
